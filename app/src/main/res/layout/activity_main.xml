@@ -17,13 +17,13 @@
             android:layout_weight="1" />
 
         <EditText
-            android:id="@+id/editTextNumberSigned4"
+            android:id="@+id/etFn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
             android:hint="enter num 1:"
-            android:inputType="numberDecimal||numberSigned" />
+            android:inputType="numberDecimal|numberSigned" />
 
         <Space
             android:layout_width="match_parent"
@@ -31,13 +31,13 @@
             android:layout_weight="1" />
 
         <EditText
-            android:id="@+id/editTextNumberSigned5"
+            android:id="@+id/etSn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
             android:hint="enter num 2:"
-            android:inputType="numberSigned||numberDecimal" />
+            android:inputType="numberSigned|numberDecimal" />
 
         <Space
             android:layout_width="match_parent"
@@ -45,12 +45,12 @@
             android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/tvRes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="res:"
-            android:text=" " />
+            android:text=" result:" />
+
         <Space
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
